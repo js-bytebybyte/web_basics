@@ -1,0 +1,15 @@
+table {
+	width: 100%;
+}
+
+.cell1 {
+	background-color: red;
+	width: 800px;
+	height: 400px;
+}
+
+.cell2 {
+	background-color: orange;
+	width: 800px;
+	height: 400px;
+}

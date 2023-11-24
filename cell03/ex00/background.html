@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="background.css">
+	<title>Background</title>
+</head>
+<body id="BG">
+	<button id="button" onclick="onButtonClick()">Click me!</button>
+	<script>
+	
+	/* define array with colors*/
+	const colors = ["red", "yellow", "green", "blue", "pink", "purple"]
+
+	/* create function that changes the BG color */
+	function onButtonClick() {
+			const index = parseInt(Math.random() * colors.length);
+			console.log(index);
+			document.getElementById("BG").style.backgroundColor = colors[index];
+		}
+	</script>
+</body>
+
+</html>
